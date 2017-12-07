@@ -13,15 +13,14 @@ body {
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  color: #79CA0A;
+  color: #429D13;
   padding: 1% 0;
   font-size: 1.2em;
   border: 0;
-  background-color: transparent;
-  background: transparent;
+  background-color: #429D13;
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
-  background-color: transparent;
+  background-color: #429D13;
 }
