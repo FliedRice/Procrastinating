@@ -13,6 +13,7 @@
 
 </head>
 <body>
+  <!-- changing template from bootstrap -->
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -36,20 +37,54 @@
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">About
-          <strong>Procrastination station</strong>
-        </h2>
-        <hr class="divider">
-        <p>we are all about avoiding procrastination<p>
+        <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+          <!-- to do list from https://bootsnipp.com/snippets/featured/todo-example -->
+            <div class="todolist not-done">
+             <h1>Todos</h1>
+                <input type="text" class="form-control add-todo" placeholder="Add todo">
+                    <button id="checkAll" class="btn btn-success">Mark all as done</button>
 
-So elegant in its simplicity. Yet so had to actualy do.
-While we’re here, let’s make sure obese people avoid overeating, depressed people avoid apathy, and someone please tell beached whales that they should avoid being out of the ocean.
+                    <hr>
+                    <ul id="sortable" class="list-unstyled">
+                    <li class="ui-state-default">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="" />Take out the trash</label>
+                        </div>
+                    </li>
+                    <li class="ui-state-default">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="" />Buy bread</label>
+                        </div>
+                    </li>
+                    <li class="ui-state-default">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="" />Teach penguins to fly</label>
+                        </div>
+                    </li>
+                </ul>
+                <div class="todo-footer">
+                    <strong><span class="count-todos"></span></strong> Items Left
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="todolist">
+             <h1>Already Done</h1>
+                <ul id="done-items" class="list-unstyled">
+                    <li>Some item <button class="remove-item btn btn-default btn-xs pull-right"><span class="glyphicon glyphicon-remove"></span></button></li>
 
-No, “avoid procrastination” is only good advice for fake procrastinators—those people that are like, “I totally go on Facebook a few times every day at work—I’m such a procrastinator!” The same people that will say to a real procrastinator something like, “Just don’t procrastinate and you’ll be fine.”
-
-The thing that neither the dictionary nor fake procrastinators understand is that for a real procrastinator, procrastination isn’t optional—it’s something they don’t know how to not do.</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
       </div>
-<
+
 
   <footer>
     <div class="container-fluid">
@@ -66,5 +101,7 @@ The thing that neither the dictionary nor fake procrastinators understand is tha
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" 
+  <script src="js/js.js">
 </body>
 </html>
