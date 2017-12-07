@@ -12,7 +12,7 @@ $("#checkAll").click(function(){
 $('.add-todo').on('keypress',function (e) {
       e.preventDefault
       if (e.which == 13) {
-           if($(this).val() != ''){
+           if($(this).val() !== ''){
            var todo = $(this).val();
             createTodo(todo);
             countTodos();
