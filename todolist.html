@@ -29,78 +29,42 @@
         <li><a href="index.html">Home</a></li>
         <li class="active"><a href="#">ToDoList</a><li>
           <li><a href="calendar.html">Calendar</a><li>
-            <li><a href="tips.html">Tips</a><li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-    <!--    <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <div class="container"> -->
-    <div class="row">
-        <div class="col-md-6">
-          <!-- to do list from https://bootsnipp.com/snippets/featured/todo-example -->
-            <div class="todolist not-done">
-             <h1>Todos</h1>
-                <input type="text" class="form-control add-todo" placeholder="Add todo">
-                    <button id="checkAll" class="btn btn-success">Mark all as done</button>
-
-                    <hr>
-                    <ul id="sortable" class="list-unstyled">
-                    <li class="ui-state-default">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="" />Take out the trash</label>
-                        </div>
-                    </li>
-                    <li class="ui-state-default">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="" />Buy bread</label>
-                        </div>
-                    </li>
-                    <li class="ui-state-default">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" value="" />Teach penguins to fly</label>
-                        </div>
-                    </li>
-                </ul>
-                <div class="todo-footer">
-                    <strong><span class="count-todos"></span></strong> Items Left
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="todolist">
-             <h1>Already Done</h1>
-                <ul id="done-items" class="list-unstyled">
-                    <li>Some item <button class="remove-item btn btn-default btn-xs pull-right"><span class="glyphicon glyphicon-remove"></span></button></li>
-
-                </ul>
-            </div>
-        </div>
-    </div>
-  <!-- </div>
-  </div> -->
-
-
-  <footer>
-    <div class="container-fluid">
-      <div class="row center">
-        <p class="col-xs-9"><small>&copy; Copyright Procrastination Station </small></p>
-        <div class="col-xs-3 text-right">
-          <a href="index.html">...</a>
+          </ul>
         </div>
       </div>
-    </div>
-  </footer>
+    </nav>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src ="js/code.js"></script>
-</body>
-</html>
+    <div class="bg-faded p-4 my-4">
+      <hr class="divider">
+      <!-- to do list from  https://www.codeseek.co/RonaldsVilcins/simple-bootstrap-to-do-list-template-iJxGB -->
+      <div class="form-group">
+        <h1>To-Do List</h1>
+        <form role="form">
+          <input type="text" class="form-control" placeholder="Your Task" name="task">
+        </form>
+        <button type="button" class="btn btn btn-primary">Add</button>
+      </div>
+      <div></div>
+      <ul class="list-unstyled" id="todo"></ul>
+    </div>
+
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row center">
+          <p class="col-xs-9"><small>&copy; Copyright Procrastination Station </small></p>
+          <div class="col-xs-3 text-right">
+            <a href="index.html">...</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="js/code.js"></script>
+  </body>
+  </html>
